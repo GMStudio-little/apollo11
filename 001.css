@@ -1,47 +1,74 @@
 .main {
-    position: relative;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    background-color: aqua;
-    height: 100vh;
-    width: 100vw;
+    background-color: #f8eff8;
+    height: 1000vh;
+    width: 98.9vw;
     display: flex;
     flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.leftPanel{
+.leftPanel {
     flex: 1;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
-.center{
-    flex: 5;
-    flex-direction: column;
+.center {
+    flex: 4;
+    flex-direction: row;
     display: flex;
 }
 
-.centerSearch{
-    flex: 3;
-}
-.centerType{
-    flex: 2;
-}
-.centerImage{
-    flex: 10;
-}
-.centerSometext{
-    flex: 2;
-}
-.centerPicture{
-    flex: 6;
+.huis:hover {
+    /* text-decoration: underline; */
+    color: black;
+    font-weight: bold;
 }
 
-.rightPanel{
+.huis {
+    color: grey;
+}
+
+.rightPanel {
     flex: 1;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
-body{
+body {
     margin: 0;
+}
+
+.input {
+    flex: 1;
+    border: 0;
+    border-width: 0;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.inputPanel {
+    flex: 4;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+}
+
+.searchIcon {
+    align-self: center;
+    margin-left: 30px;
+    height: 2vh;
+    width: 2vh;
+}
+
+.image1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 31vh;
+    width: 88vh;
+    transform: translate(-50%, -50%);
 }
