@@ -84,6 +84,7 @@
 
 body {
     margin: 0;
+<<<<<<< HEAD
 }
 
 .page-menu.data {
@@ -180,4 +181,6 @@ input {
     position: relative;
     display: flex;
     justify-content: center;
+=======
+>>>>>>> parent of c1bea81 (002)
 }
