@@ -1,40 +1,49 @@
 .main {
-    background-color: #f8eff8;
-    height: 1000vh;
-    width: 98.9vw;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .leftPanel {
     flex: 1;
-    background-color: white;
+    background-color: antiquewhite;
 }
 
 .center {
-    flex: 4;
-    flex-direction: row;
+    flex: 5;
+    flex-direction: column;
     display: flex;
 }
 
-.huis:hover {
-    /* text-decoration: underline; */
-    color: black;
-    font-weight: bold;
+.centerSearch {
+    flex: 3;
 }
 
-.huis {
-    color: grey;
+.centerType {
+    flex: 2;
+}
+
+.centerImage {
+    flex: 10;
+}
+
+.centerSometext {
+    flex: 2;
+}
+
+.centerPicture {
+    flex: 6;
 }
 
 .rightPanel {
     flex: 1;
-    background-color: white;
-}
-
-body {
-    margin: 0;
+    background-color: antiquewhite;
 }
 
 .input {
@@ -64,11 +73,111 @@ body {
     width: 2vh;
 }
 
-.image1{
+.image1 {
     position: relative;
     top: 50%;
     left: 50%;
     height: 31vh;
     width: 88vh;
     transform: translate(-50%, -50%);
+}
+
+body {
+    margin: 0;
+}
+
+.page-menu.data {
+    position: absolute;
+    top: 100px;
+    display: flex;
+    width: 60vw;
+    height: 70vh;
+    border: 1px solid #fafafa;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+}
+
+.a1 {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a2 {
+    position: inherit;
+    display: flex;
+    bottom: 40px;
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.img1 {
+    max-width: 250px;
+    max-height: 350px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.a3 {
+    position: inherit;
+    padding-left: 0;
+}
+
+#a4 {
+    text-decoration: none;
+}
+
+.a5 {
+    background-color: #f8eff8;
+    width: 100vw;
+    border-radius: 0 30px 30px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 7vh;
+}
+
+#a6 {
+    margin: 15px;
+    width: 280px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+#a6:focus {
+    outline: none;
+}
+
+input {
+    text-indent: 20px;
+}
+
+#a7 {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 200px;
+    color: #A3A3A3;
+}
+
+#a8 {
+    position: relative;
+    width: 280px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+}
+
+.btn1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
