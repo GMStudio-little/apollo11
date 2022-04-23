@@ -1,0 +1,47 @@
+.main {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftPanel{
+    flex: 1;
+    background-color: antiquewhite;
+}
+
+.center{
+    flex: 5;
+    flex-direction: column;
+    display: flex;
+}
+
+.centerSearch{
+    flex: 3;
+}
+.centerType{
+    flex: 2;
+}
+.centerImage{
+    flex: 10;
+}
+.centerSometext{
+    flex: 2;
+}
+.centerPicture{
+    flex: 6;
+}
+
+.rightPanel{
+    flex: 1;
+    background-color: antiquewhite;
+}
+
+body{
+    margin: 0;
+}
