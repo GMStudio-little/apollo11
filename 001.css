@@ -36,7 +36,6 @@
 body {
     margin: 0;
 }
-<<<<<<< HEAD
 
 .input {
     flex: 1;
@@ -73,7 +72,6 @@ body {
     width: 88vh;
     transform: translate(-50%, -50%);
 }
-=======
 .page-menu.data{
     position: absolute;
     top:100px;
@@ -156,4 +154,3 @@ input{
     display: flex;
     justify-content: center;
 }
->>>>>>> main
