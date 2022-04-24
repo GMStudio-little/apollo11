@@ -1,0 +1,95 @@
+* {
+  font-family: "Inter";
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  height: 100vh;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.rigth {
+  height: 100vh;
+  background-color: rgba(240, 240, 240, 1);
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 600px;
+  height: 120px;
+  border-radius: 30px;
+  border: none;
+  background-color: white;
+}
+
+.input {
+  padding-left: 44px;
+  color: #a3a3a3;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.recover {
+  width: 600px;
+  text-align: end;
+  cursor: pointer;
+  padding-right: 50px;
+  color: #a3a3a3;
+  font-weight: 300;
+}
+
+.line {
+  height: 0;
+  width: 160px;
+  border: 1px solid #a3a3a3;
+}
+
+.divider {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 600px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.methodContainer {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconButton {
+  cursor: pointer;
+  border: 1px solid #a3a3a3;
+  border-radius: 10px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/001.css" />
+    <script src="../scripts/WBH.js"></script>
+  </head>
+
+  <body>
+    <div class="main" id="main">
+      <div class="leftPanel">
+        <!-- Select Elements -->
+        <form class="select2">
+          <label class="custom-selector1">
+            <select class="select1">
+              <option>T-shirt</option>
+              <option>Hoodie</option>
+              <option>Sweater</option>
+            </select>
+          </label>
+        </form>
+        <form class="select3">
+          <label class="custom-selector2"> </label>
+        </form>
+      </div>
+      <div class="center">
+        <div class="flex1"></div>
+        <div class="flex2Col">
+          <div class="flex1"></div>
+          <div class="flex2Row">
+            <div style="flex: 5; display: flex">
+              <div style="flex: 1; text-align: center">
+                <p class="huis" onclick="Test(0)" id="menText">Эрэгтэй</p>
+
+                <p />
+              </div>
+              <div style="flex: 1; text-align: center">
+                <p class="huis" onclick="Test(1)" id="womenText">Эмэгтэй</p>
+
+                <p />
+              </div>
+              <div style="flex: 1; text-align: center">
+                <p class="huis" onclick="Test(2)" id="kidText">Хүүхэд</p>
+
+                <p />
+              </div>
+              <div class="inputPanel">
+                <div style="flex: 1; display: flex">
+                  <img src="../assets/search.png" class="searchIcon" />
+                </div>
+                <div style="flex: 9; display: flex">
+                  <input placeholder="Бараа хайх" class="input" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="flex: 1"></div>
+          <div style="flex: 10; align-items: center">
+            <img src="../assets/pic1.png" class="image1" width="850" />
+          </div>
+          <div style="flex: 1"></div>
+          <div style="flex: 2; display: flex; flex-direction: row">
+            <div style="flex: 1; text-align: start; padding-left: 15px">
+              <b>Санал болгох</b>
+            </div>
+            <div style="flex: 4"></div>
+            <div
+              style="flex: 1; text-align: end; color: grey; padding-right: 15px"
+            >
+              Бүгдийг үзэх
+            </div>
+          </div>
+          <div style="flex: 13; flex-direction: row; display: flex" id="men">
+            <!-- hundlun  -->
+            <!-- <script>
+                        var a = "";
+                        for (var i = 0; i < 5; i++) {
+                            a += " <div class='clothImage'> </div>"
+                        }
+                        document.getElementById("men").innerHTML = a;
+                    </script> -->
+            <!-- <div class="clothImage"> </div> 
+                    <div class="clothImage"> </div> 
+                    <div class="clothImage"> </div> 
+                    <div class="clothImage"> </div>  -->
+            <img src="../assets/pic.png" width="880" class="image1" />
+          </div>
+          <div style="flex: 13; display: none" id="women">46</div>
+          <div style="flex: 13; display: none" id="kid">212321</div>
+          qweq
+          <div style="flex: 282"></div>
+        </div>
+        <div style="flex: 1"></div>
+      </div>
+      <div class="rightPanel">
+        <div class="flex1"></div>
+        <div style="flex: 2; display: flex; flex-direction: row">
+          <div style="flex: 1">
+            <img src="../assets/bag.png" width="25" class="lIcon" />
+          </div>
+          <a href="logIn.html" style="flex: 1">
+            <img src="../assets/login.png" width="25" class="lIcon" />
+          </a>
+          <div style="flex: 1"></div>
+        </div>
+        <div style="flex: 335"></div>
+      </div>
+    </div>
+    <script>
+      document.getElementById("kidText").style.color = "grey";
+      document.getElementById("kidText").style.fontWeight = "normal";
+      document.getElementById("menText").style.color = "black";
+      document.getElementById("menText").style.fontWeight = "bold";
+      document.getElementById("signIn").style.display = "none";
+    </script>
+  </body>
+</html>
