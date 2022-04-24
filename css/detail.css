@@ -1,0 +1,125 @@
+* {
+  font-family: "Inter";
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin-top: 40px;
+  margin-right: 100px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.main {
+  width: 60vw;
+  display: flex;
+  align-items: center;
+}
+.category {
+  flex: 1;
+}
+.user {
+  width: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-left: 40px;
+}
+
+.inputPanel {
+  height: 70px;
+  background-color: white;
+  padding-left: 40px;
+
+  flex: 4;
+  display: flex;
+  align-items: center;
+
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+.input {
+  flex: 1;
+  border: none;
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.input:focus {
+  outline: none;
+}
+.searchIcon {
+  height: 20px;
+  width: 20px;
+}
+
+.content {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+}
+
+.product {
+  flex: 6;
+}
+
+.context {
+  flex: 4;
+  margin-top: 70px;
+  padding-left: 30px;
+}
+
+.edges {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.imageContainer {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  height: 60px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selecter {
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  font-weight: 500;
+  padding-left: 10px;
+}
