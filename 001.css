@@ -64,7 +64,7 @@ body {
     width: 2vh;
 }
 
-.image1{
+.image1 {
     position: relative;
     top: 50%;
     left: 50%;
@@ -72,9 +72,10 @@ body {
     width: 88vh;
     transform: translate(-50%, -50%);
 }
-.page-menu.data{
+
+.page-menu.data {
     position: absolute;
-    top:100px;
+    top: 100px;
     display: flex;
     width: 60vw;
     height: 70vh;
@@ -82,38 +83,49 @@ body {
     border-radius: 30px;
     background-color: #FFFFFF;
 }
-.a1{
+
+.a1 {
     position: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    
 }
-.a2{
+
+.a2 {
     position: inherit;
     display: flex;
-    bottom:40px;
+    bottom: 40px;
     padding-left: 80px;
     padding-right: 20px;
 }
-.img1{
+
+.img1 {
     max-width: 250px;
     max-height: 350px;
     padding-left: 70px;
     padding-right: 50px;
 }
-.a3{
+
+.a3 {
     position: inherit;
     padding-left: 0;
 }
-#a4{
+
+#a4 {
     text-decoration: none;
 }
-.a5{
-    background-color:#f8eff8;
+
+.a5 {
+    background-color: #f8eff8;
     width: 100vw;
     border-radius: 0 30px 30px 0;
 }
-.form{
+
+.form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,27 +133,32 @@ body {
     position: relative;
     top: 7vh;
 }
-.a6{
+
+.a6 {
     margin: 15px;
-    width:280px;
+    width: 280px;
     height: 50px;
     border-radius: 20px;
-    border:none;
+    border: none;
     background-color: #FFFFFF;
 }
-.a6:focus{
-    outline:none;
+
+.a6:focus {
+    outline: none;
 }
-input{
+
+input {
     text-indent: 20px;
 }
-#a7{
+
+#a7 {
     position: relative;
-    padding-top:20px;
+    padding-top: 20px;
     padding-left: 200px;
     color: #A3A3A3;
 }
-.a8{
+
+.a8 {
     position: relative;
     width: 280px;
     height: 50px;
@@ -149,32 +166,38 @@ input{
     border: none;
     background-color: white;
 }
-.btn1{
+
+.btn1 {
     position: relative;
     display: flex;
     justify-content: center;
 }
-.select1{
+
+.select1 {
     width: 158px;
     border-top: none;
     border-left: none;
     border-right: none;
 }
-.select2{
+
+.select2 {
     position: absolute;
     padding-left: 20px;
     padding-top: 90px;
 }
-.select1:focus{
+
+.select1:focus {
     outline: none;
 }
-.custom-selector1{
+
+.custom-selector1 {
     position: relative;
     display: inline-block;
     font-size: 14px;
     border-radius: 10px;
 }
-.custom-selector1 select{
+
+.custom-selector1 select {
     min-height: 35px;
     background-color: #f8eff8;
     border-radius: 20px;
@@ -184,4 +207,3 @@ input{
     margin-top: 5px;
     padding: 0 10px;
 }
-
